@@ -20,7 +20,7 @@ Cypress.Commands.add("setStat", (num, status) => {
   cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text').click()
   cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text .oxd-select-text-input').should('have.text',`${status}`)
 })
-describe('orageHRM testing', () => {
+describe('User Management Edit', () => {
   it('success edit USERNAME by search',() => {
     cy.login_umg(loginData.validUsername,loginData.validPassword)
 
