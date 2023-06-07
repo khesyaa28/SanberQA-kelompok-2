@@ -5,3 +5,5 @@ Anggota kelompok:
 3. -
 4. -
 5. -
+Link Test Case
+https://docs.google.com/spreadsheets/d/18Wz47syIxHyKH5QpR4VOiDKbaot27lUqMNuBwTrtRv0/edit?usp=sharing
