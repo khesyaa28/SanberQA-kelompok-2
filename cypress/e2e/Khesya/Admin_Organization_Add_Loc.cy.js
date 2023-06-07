@@ -1,5 +1,5 @@
-import log_in from "../../../support/log_init.cy.js";
-const loginData = require("../../../fixtures/login/login.json");
+import log_in from "../../support/log_init.cy.js";
+const loginData = require("../../fixtures/login/login.json");
 
 Cypress.Commands.add("add_org_loc", (email, password) => {
   cy.visit("https://opensource-demo.orangehrmlive.com/");
